@@ -1,0 +1,5 @@
+faster-whisper==1.2.1
+ctranslate2==4.8.3
+sentencepiece==0.2.2
+subword-nmt==0.3.8
+sacremoses==0.2.0

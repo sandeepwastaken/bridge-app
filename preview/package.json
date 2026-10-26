@@ -1,0 +1,7 @@
+{
+  "name": "bridge-device-preview",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": { "start": "node server.cjs", "test:icons": "node ../tools/test-icons.mjs" }
+}

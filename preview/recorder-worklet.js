@@ -1,0 +1,1 @@
+class BridgeRecorder extends AudioWorkletProcessor{process(inputs){const input=inputs[0]?.[0];if(input){const samples=new Float32Array(input);let sum=0;for(const x of samples)sum+=x*x;this.port.postMessage({samples,level:Math.min(1,Math.sqrt(sum/input.length)*8)},[samples.buffer])}return true}}registerProcessor('bridge-recorder',BridgeRecorder);

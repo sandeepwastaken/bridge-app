@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Bridge</string>
+    <string name="phone_control_description">Bridge performs Home, Back and scroll actions only when you choose a button or say a command. It does not read your screen, collect window text or take screenshots. You can turn it off in Accessibility settings at any time.</string>
+</resources>

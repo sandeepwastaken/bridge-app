@@ -1,0 +1,72 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.ipa
+
+# Android and Gradle
+.gradle/
+.kotlin/
+local.properties
+.idea/
+*.iml
+captures/
+*.apk
+*.aab
+
+# Test output
+test-results/
+
+# Python and Node
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded models
+.models/
+.model-cache/
+python-ml/
+translation-models/
+speech-model/
+*.argosmodel
+
+# Local notes
+RESUME_CHECKPOINT.md
+
+# Local handoff notes
+HANDOFF.md
+
+.local/
+*.md
+!/README.md
+!/PRIVACY_POLICY.md
+*.xcresult/
+*.xcarchive/
+Payload/
+*.p12
+*.jks
+*.keystore
+
+.agents/
+.claude/
+.codex/
+.cursor/
+.github/copilot-instructions.md
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+*.log
+*.tmp
+*.bak
+*.zip
+*.dSYM/
